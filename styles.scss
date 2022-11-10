@@ -7,7 +7,7 @@
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
-/* -------------------deafult colors------------------- */
+/* -------------------defult colors------------------- */
 
 $main-blue: #011f4b;
 $gradient-light-color: #03396c;
@@ -560,9 +560,10 @@ footer {
     pre[class*='language-'] {
       position: relative;
       overflow: auto;
-      margin: 5px 0;
-      padding: 1.75rem 0 1.75rem 1rem;
-      border-radius: 10px;
+      margin: 6px 0;
+      padding: 1rem 0 1rem 1rem;
+      border-radius: 8px;
+      font-size: small
     }
 
     button {
@@ -606,7 +607,7 @@ footer {
     }
 
     h1 {
-      padding-top: 8rem;
+      padding-top: 9rem;
     }
 
     h2 {
@@ -619,8 +620,8 @@ footer {
     }
 
     img {
-      margin-top: 8rem;
-      border-radius: 2rem;
+      margin-top: 2rem;
+      border-radius: 1rem;
       box-shadow: 0 0.2rem 0.6rem 0 rgba(0, 0, 0, 0.4);
       width: 90rem;
     }
@@ -801,7 +802,7 @@ footer {
   border-radius : 15px;
 }
 .card:hover {
-  height : 265px;    
+  height : 260px;    
 }
 
 .card .image {
@@ -832,7 +833,7 @@ footer {
   padding : 5px 5px;
   color : white;
   text-align : center;
-  font-size: small;
+  font-size: x-small;
   visibility : hidden;
   opacity : 0;
   transition : 0.3s ease-in-out;
